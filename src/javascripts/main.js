@@ -6,6 +6,7 @@ import paint from './components/paintBrush/paintbrush';
 const init = () => {
   grid.makeGrid();
   paint.printColorPicker();
+  paint.attachEvents();
 };
 
 init();
