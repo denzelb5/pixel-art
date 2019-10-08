@@ -22,7 +22,6 @@ const paintPixel = (event) => {
   const pixel = $(event.target);
   const colorChoice = $('.color-choice:checked').val();
   pixel.css('backgroundColor', colorChoice);
-  console.log(pixel, colorChoice);
 };
 
 const attachEvents = () => {
